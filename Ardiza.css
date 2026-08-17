@@ -1,0 +1,183 @@
+/* ------HEADING SECTION------ */
+body {
+       font-family: Roboto Slab;
+       background: #dbe4ff;
+}
+
+.up-down {
+       font-weight: 400;
+       font-size: 30px;
+       text-decoration: none;
+       letter-spacing: -1.5px;
+       color: #212529;
+}
+
+h1 {
+       font-weight: 900;
+       text-decoration: underline blue double;
+       letter-spacing: -1px;
+       text-transform: uppercase;
+       text-align: center;
+       line-height: 1.5;
+       font-size: 50px;
+       color: #212529;
+       background: #845ef7
+}
+ 
+.header {
+       background-color: #7950f2;
+       
+}
+
+
+
+/* ------ABOUT ME SECTION------ */
+
+h2 {
+       font-weight: 700;
+       font-size: 40px;
+       text-transform: uppercase;
+       line-height: 3;
+       color: #495057;
+       text-align: center;
+} 
+
+p {
+   font-weight: 400;
+   font-style: oblique;
+   text-align: center;    
+   line-height: 1.5;
+   font-size: 30px;
+   color:#5f3dc4;    
+       
+}
+
+
+/* ------SKILLS SECTION------ */
+  
+h3 {
+    font-weight: 800;
+       text-decoration: underline blue double;
+       text-transform: uppercase;
+       text-align: center;   
+       font-size: 35px;
+       
+}
+
+
+#aws {
+       font-weight: 900;
+       font-style: oblique 20deg;
+       font-size: 30px;
+       letter-spacing: 1px;
+}
+
+
+
+h4 {
+    font-weight: 700;   
+    font-style: oblique 20deg;
+    font-size: 30px;   
+    list-style: square;   
+       
+       
+       
+}
+
+.main-ul {
+       list-style: none;
+}
+
+
+
+
+/* ------MY GOAL SECTION------ */
+
+
+
+
+/* ------LETS CONNECT SECTION------ */
+
+h5 {
+       font-size: 30px;
+       font-weight: 600;
+}
+
+.connect {
+       text-align: center;
+}
+
+.who-where {
+       font-style: normal;
+       text-transform: capitalize;
+       font-size: 40px;
+       font-weight: 900;
+}
+
+.btn-primary {
+       font-weight: 900;
+       line-height: 1.5;
+       font-size: 20px;
+}
+
+.btn-secondary{
+       font-weight: 900;
+       line-height: 1.5;
+       font-size: 20px;
+}
+
+
+
+
+#user-name {
+       font-size: 30px;
+       line-height: 1.8;
+}
+
+#user-email {
+       font-size: 30px;
+       line-height: 1.8;
+       
+}
+
+#cc {
+       font-size: 35px;
+       
+}
+
+#country {
+       font-size: 40px
+       
+}
+
+#user-phonenumber {
+       font-size: 30px;
+       line-height: 1.8;
+}
+
+.table {
+       font-size: 35px;
+}
+
+/* ------FOOTER SECTION------ */
+
+#top {
+       text-align: center;
+       color: #212529;
+       text-decoration: none;
+       letter-spacing: 1px;
+       font-size: 25px;
+}
+
+.logos {
+       text-decoration: none;
+       text-align: center; 
+       line-height: 1.5px;
+       font-size: 50px;
+       letter-spacing: 40px;
+       
+}
+
+
+
+
