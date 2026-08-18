@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head class="header">
+     <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
+     <link rel="stylesheet" href="Ardiza.css">
+     <title>ARDIZA WEB DEVELOPER IN TRAINING</title>
+</head>
+<body>
+     
+ <!--HEADING-->
+     
+     <p><h4><a class="up-down" href="#MY GOALS">GO DOWN</a></p></h4>
+     <h1 id="up">WELCOME TO THE FIRST WEBSITE I CREATED WHILE I WAS LEARNING WEB DEVELOPMENT</h1>
+     
+   <!--ABOUT ME SECTION-->
+    
+     <h2>ABOUT ME:</h2>
+     <img class="img" src="my-image.png" width="500" height="350">
+        <p>Am Ardiza from oyo state, am currently learning HTML step by step.</p>
+        <p>I like learning tech skills and i want to build a tech empire.</p>
+        <p>This is my first website and am building it as i learn.</p>
+     <img class="img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmEAwp1e8X-fIIdEIDOTYPZnx5AaDxQfTXLe92R4ftLw&s=10">
+     <
+     <!--SKILLS I WANT TO LEARN SECTION-->
+     
+     <h2>SKILLS I WANT TO LEARN:</h2>
+     <ol>
+           <h3><li>Fullstack website development.</li></h3>
+               <h4><ul class="main-ul">
+                    <li><img src="image/images (56) (1).jpeg" alt="web logo" width="200px"></li>
+                    <li>
+                        <ul>
+                          <li>HTML</li> 
+                          <li>CSS</li>
+                          <li>Javascript</li>
+                          <li>React+node.js</li>
+                       </ul>
+                   </li>
+              </ul></h4>
+             <h3><li>Cyber security.</li></h3>
+                <h4><ul class="main-ul">
+                  <li><img src="image/images (56).jpeg" alt="cyber security logo" width="200px"></li>
+                  <li> 
+                     <ul> 
+                         <li>Ethical hacking</li>
+                         <li>Network Security</li>
+                         <li>Threat Analysis</li>
+                     </ul>
+                  </ul>
+               </ul></h4>
+             <h3><li>Cloud computing.</li></h3>
+                <h4><ul class="main-ul">
+                    <li><img src="image/images (55).jpeg" alt="cloud computing logo" width="200px"></li>
+                    <li>
+                       <ul>
+                          <li> <a id="aws" href="https://aws.amazon.com">AWS</a></li>
+                          <li>Microsoft Azure</li>
+                          <li>Google Cloud</li>
+                          <li>Cloud Storage and Database</li> 
+                       </ul>
+                    </li>
+               </ul></h4>
+           </ol>
+            
+   <!--MY GOAL SECTION-->
+     
+     <h2>MY GOALS:</h2>
+        <p>
+           My goals is to finish learning web development and build my first website then move to other courses and i want to practice step by step to get better in coding.
+           My overall goal is to build a tech empire in future.
+        </p> 
+ 
+     <form action="/api/v1/journal" method="post">
+          
+     <!--LETS CONNECT SECTION-->
+          
+       <div class="connect">
+         <h2>LET'S CONNECT:</h2>
+          <h5>
+              <label for="user-name">Full Name</label>
+                   <br>
+               <input id="user-name" type="text" name="user-name" placeholder="e.g john mathew" required>
+           </h5>        
+           <h5>
+             <label for="user-email">Enter Email</label>
+                   <br>
+              <input id="user-email"type="email" name="user-email" placeholder="e.g john@gmail.com" required>
+          </h5>
+          <h5>
+              <label for="user-phone number">Enter Phone Number</label>
+                   <br>
+               <select id="cc" name="country code">
+                  <option value="+234">🇳🇬+234</option>
+                  <option value="+228">🇹🇬+228</option>
+                  <option value="+233">🇬🇭+233</option>
+                  <option value="+229">🇧🇯+229</option>
+                  <option value="+1">🇺🇸+1</option>
+                  <option value="+221">🇳🇪+221</option>
+                  <option value="+225">🇨🇲+225</option>
+                  <option value="+227">🇨🇮+227</option>  
+                  <option value="+226">🇧🇫+226</option>
+                  <option value="+237">🇧🇫+237</option>  
+                  <option value="+27">🇸🇳+27</option>  
+                  <option value="+254">🇿🇦+254</option> 
+                  <option value="+256">🇰🇪+256</option> 
+                  <option value="+255">+255</option>
+                  <option value="+20">+20</option>
+                  <option value="+212">+212</option>
+                  <option value="+213">+213</option>
+                  <option value="+216">+216</option>
+                  <option value="+1">+1</option>
+                  <option value="+44">+44</option>
+                  <option value="+33">+33</option>
+                  <option value="+49">+49</option>
+                  <option value="+39">+39</option>
+                  <option value="+34">+34</option>
+                  <option value="+351">+351</option>
+                  <option value="+31">31</option>
+                  <option value="+32">+32</option>
+               </select>
+             <input id="user-phonenumber"type="tel" name="user-phone number" placeholder="e.g 9043765865" required="">
+          </h5>
+            
+          <h4 class="who-where">Who are you?:</h4>
+          <h5>
+            <input id="requiter" type="radio" name="who-are-you" value="requiter" required>
+            <label for="requiter">Recruiter</label>
+            <input id="friend" type="radio" name="who-are-you" value="friend" required>
+            <label for="friend">Friend</label>
+            <input id="fellow-learner" type="radio" name="who-are-you" value="fellow-learner" required>
+            <label for="fellow-learner">Fellow Learner</label>
+          </h5>
+          <h4 class="who-where">Where are you from?:</h4>
+         
+          <h5> <label for="user-country">Choose your country</label>
+                        <br>
+             <select id="country" name="country">
+                  <option value="nigeria">Nigeria</option>
+                  <option value="Ghana">Ghana</option>
+                  <option value="togo">Togo</option>
+                  <option value="benin">Benin</option>
+                  <option value="niger">Niger</option>
+                  <option value="cameroon">Cameroon</option>
+                  <option value="ivory coast">Ivory coast</option>
+                  <option value="burkina faso">Burkina faso</option>
+                  <option value="senegal">Senegal</option>
+                  <option value="south africa">South Africa</option>
+                  <option value="kenya">Kenya</option>
+                  <option value="uganda">Uganda</option>
+                  <option value="tanzania">Tanzania</option>
+                  <option value="egypt">Egypt</option>
+                  <option value="morocco">Morocco</option>
+                  <option value="algeria">Algeria</option>
+                  <option value="tunisia">Tunisia</option>
+                  <option value="u.s">U.S</option>
+                  <option value="canada">Canada</option>
+                  <option value="u.k">U.K</option>
+                  <option value="france">France</option>
+                  <option value="germany">Germany</option>
+                  <option value="italy">Italy</option>
+                  <option value="spain">Spain</option>
+                  <option value="portugal">Portugal</option>
+             </select>
+          </h5>
+          
+           <p>
+                <h5><label for="message-entry">Enter message</label>
+                   <br> 
+              <textarea id="message-entry" name="entry" rows="10" cols="50" maxlength="500" minlength="10" required></textarea>
+                    <br>
+              <button class="btn-primary">SUBMIT</button>  
+              <button class="btn-secondary" type="reset">RESET</button>
+            </h5>       
+           </p>
+       </div>
+   </form>
+          
+      <!--TABLE  SECTION-->
+       <div class="table">
+          <table>
+             <thead>
+                <tr>
+                   <th>Skills</th>  
+                   <th>Status</th>
+                </tr>
+             </thead>
+             <tbody>
+                 <tr>
+                    <td>Full stack web.</td>
+                    <td>Learning</td>        
+                 </tr>
+                 <tr>
+                    <td>Cybersecurity</td>   
+                    <td>Pending</td> 
+                 </tr>
+                  <tr>
+                     <td>Cloud Architech</td> 
+                     <td>pending</td>  
+                  </tr>
+             </tbody>   
+          </table>
+       </div>  
+          
+     <!--FOOTER SECTION-->
+          
+     <footer>
+          
+          <p><a id="top" href="#up">BACK TO TOP</a></p>
+          
+                <hr>
+          <p id="MY GOALS">© 2026 Ardiza. All rights reserved</p>  
+          
+        <div class="logos">
+           <a class="logos" href="https://www.facebook.com/Nu maan">
+             <svg width="50px" xmlns="http://www.w3.org/2000/svg" data-name="Layer 1" viewBox="0 0 512 512" class="ionicon"><path fill-rule="evenodd" d="M480 257.35c0-123.7-100.3-224-224-224s-224 100.3-224 224c0 111.8 81.9 204.47 189 221.29V322.12h-56.89v-64.77H221V208c0-56.13 33.45-87.16 84.61-87.16 24.51 0 50.15 4.38 50.15 4.38v55.13H327.5c-27.81 0-36.51 17.26-36.51 35v42h62.12l-9.92 64.77H291v156.54c107.1-16.81 189-109.48 189-221.31"/></svg>
+          </a>
+          <a class="logos" href="https://www.instagram.com/ar.diza05">
+              <svg width="50px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="ionicon"><path d="M349.33 69.33a93.62 93.62 0 0 1 93.34 93.34v186.66a93.62 93.62 0 0 1-93.34 93.34H162.67a93.62 93.62 0 0 1-93.34-93.34V162.67a93.62 93.62 0 0 1 93.34-93.34zm0-37.33H162.67C90.8 32 32 90.8 32 162.67v186.66C32 421.2 90.8 480 162.67 480h186.66C421.2 480 480 421.2 480 349.33V162.67C480 90.8 421.2 32 349.33 32"/><path d="M377.33 162.67a28 28 0 1 1 28-28 27.94 27.94 0 0 1-28 28M256 181.33A74.67 74.67 0 1 1 181.33 256 74.75 74.75 0 0 1 256 181.33m0-37.33a112 112 0 1 0 112 112 112 112 0 0 0-112-112"/></svg>
+          </a>
+          <a class="logos" href="https://www.tiktok.com/@adex0_5">
+             <svg width="50px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="ionicon"><path d="M412.19 118.66a109 109 0 0 1-9.45-5.5 133 133 0 0 1-24.27-20.62c-18.1-20.71-24.86-41.72-27.35-56.43h.1C349.14 23.9 350 16 350.13 16h-82.44v318.78c0 4.28 0 8.51-.18 12.69 0 .52-.05 1-.08 1.56 0 .23 0 .47-.05.71v.18a70 70 0 0 1-35.22 55.56 68.8 68.8 0 0 1-34.11 9c-38.41 0-69.54-31.32-69.54-70s31.13-70 69.54-70a68.9 68.9 0 0 1 21.41 3.39l.1-83.94a153.14 153.14 0 0 0-118 34.52 161.8 161.8 0 0 0-35.3 43.53c-3.48 6-16.61 30.11-18.2 69.24-1 22.21 5.67 45.22 8.85 54.73v.2c2 5.6 9.75 24.71 22.38 40.82A167.5 167.5 0 0 0 115 470.66v-.2l.2.2c39.91 27.12 84.16 25.34 84.16 25.34 7.66-.31 33.32 0 62.46-13.81 32.32-15.31 50.72-38.12 50.72-38.12a158.5 158.5 0 0 0 27.64-45.93c7.46-19.61 9.95-43.13 9.95-52.53V176.49c1 .6 14.32 9.41 14.32 9.41s19.19 12.3 49.13 20.31c21.48 5.7 50.42 6.9 50.42 6.9v-81.84c-10.14 1.1-30.73-2.1-51.81-12.61"/></svg>
+          </a>
+          <a class="logos" href="mailto:numon225@gmail.com">
+             <svg width="50px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="ionicon"><rect width="416" height="320" x="48" y="96" rx="40" ry="40" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32px"/><path d="m112 160 144 112 144-112" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32px"/></svg>
+          </a>
+        </div>
+          
+          <p id="" >Built while learning web development</p>
+          <hr>
+     </footer>
+</body>
+</html>
